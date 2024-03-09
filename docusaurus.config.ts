@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Leryn\'s Wiki Site',
-  tagline: 'Leryn writes her own Wiki',
+  title: 'Leryn\'s Wiki',
+  tagline: 'Documentation on working experiences',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -46,14 +46,14 @@ const config: Config = {
       title: 'Leryn\'s Wiki',
       logo: {
         alt: 'My Site Logo', 
-        src: 'img/logo.svg',
+        src: 'img/logo.jpg',
       },
       items: [
         {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Document',
         },
         {
           href: 'https://github.com/leryn1122/wiki',
@@ -84,11 +84,32 @@ const config: Config = {
       <a href="https://beian.miit.gov.cn" target="_blank" style="text-decoration: none;">沪ICP备2021005089号</a>`,
     },
     prism: {
-      theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
+      theme: prismThemes.oneDark,
+      darkTheme: prismThemes.oneDark,
       additionalLanguages: [
+          'markup',
+          // 
           'bash',
+          'cpp',
           'docker',
+          'go',
+          'hcl',
+          'http',
+          'ini',
+          'javascript',
+          'json',
+          'keepalived',
+          'log',
+          'nginx',
+          'powershell',
+          'protobuf',
+          'python',
+          'rust',
+          'sql',
+          'systemd',
+          'toml',
+          'typescript',
+          'yaml',
       ]
     },
   } satisfies Preset.ThemeConfig,

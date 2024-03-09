@@ -20,7 +20,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/readme/">
-            Access to my first wiki
+            Access to Wiki
           </Link>
         </div>
       </div>
