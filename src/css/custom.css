@@ -29,3 +29,20 @@
   --ifm-color-primary-lightest: #579eb2;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../../static/font/AvenirNextLTPro-Bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../../static/font/AvenirNextLTPro-It.otf') format('opentype');
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  src: url('../../static/font/AvenirNextLTPro-Regular.otf') format('opentype');
+}
